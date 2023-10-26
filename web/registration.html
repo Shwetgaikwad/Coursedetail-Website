@@ -1,0 +1,27 @@
+<html>
+<head>
+<title> Registeration</title>
+<link rel="stylesheet" href="css sheet\styles.css">
+</head>
+<body bgcolor='#a1b2c3'>
+    <ul>
+  <li><a class="active" href="http://localhost:8080/WebApplication4/index.html">Home</a></li>
+  <li><a href="http://localhost:8080/WebApplication4/login.html?email=&pass=">Login</a></li>
+  <li><a href="http://localhost:8080/WebApplication4/coursedetail.html">Course Detail</a></li>
+  <li><a href="http://localhost:8080/WebApplication4/aboutus.html">About us</a></li>
+</ul>
+    <div class="container">
+<Center><h1> Registration here!!! </h1>
+    <form action="registraition.jsp" method="post">
+        <B>Name:</B><input type="text" name="name" maxlength="20" required><br><br>
+<B>Gender:</B><input type="radio" name="gender" value="Male">Male 
+<input type="radio" name="gender" value="Female">Female<br><br>
+<B>Phone No.:</B><input type="text" name="number" required><br><br>
+<B>Address:</B><input type="text" name="add" maxlength="100" required><br><br>
+<B>Email:</B><input type="email" name="email"><br><br>
+<B>Date Of Birth:</B><input type="Date" name="date"><br><br>
+<B>Set Password:</B><input type="password" name="spass" maxlength="20" required><br><br>
+  <input type="submit" value="submit" ><br><br>
+</form>
+    </div>
+</html>
